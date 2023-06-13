@@ -1564,6 +1564,55 @@
               </node>
             </node>
             <node concept="3clFbH" id="QucyCqZnaP" role="3cqZAp" />
+            <node concept="3cpWs8" id="3iVQSPhsNdB" role="3cqZAp">
+              <node concept="3cpWsn" id="3iVQSPhsNdC" role="3cpWs9">
+                <property role="TrG5h" value="diffEditorHandler" />
+                <node concept="3uibUv" id="3iVQSPhsNdD" role="1tU5fm">
+                  <ref role="3uigEE" to="ky10:~ServletContextHandler" resolve="ServletContextHandler" />
+                </node>
+                <node concept="2ShNRf" id="3iVQSPhsNdE" role="33vP2m">
+                  <node concept="1pGfFk" id="3iVQSPhsNdF" role="2ShVmc">
+                    <ref role="37wK5l" to="ky10:~ServletContextHandler.&lt;init&gt;()" resolve="ServletContextHandler" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="3iVQSPhsNdG" role="3cqZAp">
+              <node concept="2OqwBi" id="3iVQSPhsNdH" role="3clFbG">
+                <node concept="37vLTw" id="3iVQSPhsNdI" role="2Oq$k0">
+                  <ref role="3cqZAo" node="3iVQSPhsNdC" resolve="diffEditorHandler" />
+                </node>
+                <node concept="liA8E" id="3iVQSPhsNdJ" role="2OqNvi">
+                  <ref role="37wK5l" to="ky10:~ServletContextHandler.addServlet(java.lang.Class,java.lang.String)" resolve="addServlet" />
+                  <node concept="3VsKOn" id="3iVQSPhsNdK" role="37wK5m">
+                    <ref role="3VsUkX" to="lvkz:4ykQGNBsd8m" resolve="DiffEditorServlet" />
+                  </node>
+                  <node concept="Xl_RD" id="3iVQSPhsNdL" role="37wK5m">
+                    <property role="Xl_RC" value="/*" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="3iVQSPhsYAh" role="3cqZAp">
+              <node concept="2OqwBi" id="3iVQSPhsYAi" role="3clFbG">
+                <node concept="37vLTw" id="3iVQSPhsYAj" role="2Oq$k0">
+                  <ref role="3cqZAo" node="1MbrkMIxeOZ" resolve="handlerList" />
+                </node>
+                <node concept="liA8E" id="3iVQSPhsYAk" role="2OqNvi">
+                  <ref role="37wK5l" to="cgcg:~HandlerCollection.addHandler(org.eclipse.jetty.server.Handler)" resolve="addHandler" />
+                  <node concept="1rXfSq" id="3iVQSPhsYAl" role="37wK5m">
+                    <ref role="37wK5l" node="1MbrkMIxNMj" resolve="withContext" />
+                    <node concept="Xl_RD" id="3iVQSPhsYAm" role="37wK5m">
+                      <property role="Xl_RC" value="/diffeditor" />
+                    </node>
+                    <node concept="37vLTw" id="3iVQSPhsYAn" role="37wK5m">
+                      <ref role="3cqZAo" node="3iVQSPhsNdC" resolve="diffEditorHandler" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="3iVQSPhsN5$" role="3cqZAp" />
             <node concept="3clFbF" id="1MbrkMIyZ2n" role="3cqZAp">
               <node concept="2OqwBi" id="1MbrkMIyZ2o" role="3clFbG">
                 <node concept="37vLTw" id="1MbrkMIyZ2p" role="2Oq$k0">
